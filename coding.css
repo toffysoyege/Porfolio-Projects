@@ -1,0 +1,79 @@
+h2 {
+    font-size: 30px;
+}
+
+
+header h1{
+    margin: 0 auto 15px;
+    font-size: 50px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2, figure, figcaption{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 2rem auto;
+    width: 100%;
+    margin: 20px -4px;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(rgb(14,74,122), rgb(113,62,245), rgb(74,34,122));
+    box-shadow: 0 0 20px 0 rgba(14,14,83,0.8);
+}
+
+.NEEDED{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.NEEDED, .Title {
+    background-color: blanchedalmond;
+}
+
+footer {
+    background-color: rgb(74,34,122);
+    color: #ffffff;
+}
+
+hr {
+    height: 2px;
+    background-color:  black;
+    border-color: whitesmoke;
+  }
+
+.smaller-img {
+    width: 300px;
+  }
+
+label {
+    display: block;
+    margin: 0.5rem, 0;
+}
+
+fieldset {
+    padding: 2rem 0;
+    border: none;
+    color: #ffffff
+  }
+
+textarea, input{
+    background-color: rgb(74,34,122);
+    border: 5px solid rgb(74,34,122);
+    color: #ffffff;
+    min-height: 2em;
+}
+
+select {
+    margin: auto 225px;
+    background-color: rgb(74,34,122);
+    border: 5px solid rgb(74,34,122);
+    color: #ffffff
+}
