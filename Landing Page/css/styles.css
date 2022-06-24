@@ -1,0 +1,129 @@
+:root {
+    --dark-background-color: #1f2937;
+    --hero-main-text: #f9faf8;
+    --hero-secondary-text: #E5E7EB;
+    --header-logo-text: #f9faf8;
+    --button-text: #3882F6;
+    --information-header-text: #1F2937;
+    --quote-section-color: #E5E7EB;
+    --quote-text: #1F2937;
+}
+
+.intro, footer {
+    background-color: var(--dark-background-color);
+    color: var(--hero-main-text);
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.link-tabs > ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.title, .sub-text, .CTA {
+    position: relative;
+    left: 15%;
+}
+
+
+.title {
+    color: var(--hero-main-text);
+    font-size: 48px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: var(--hero-secondary-text);
+    margin: 5px;
+}
+
+.CTA {
+    background-color: var(--button-text);
+    border-radius: 5%;
+    text-align: center;
+    width: 10%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.info-title {
+    margin: auto;
+    padding-top: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 0;
+   padding-bottom: 50px;
+   margin-bottom: 50px;
+}
+.box {
+    border: 2px solid var(--button-text);
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+
+.info-title {
+    color: var(--information-header-text);
+    text-align: center;
+    font-size: 36px;
+}
+
+.quote {
+    background-color: var(--quote-section-color);
+    color: var(--quote-text);
+    font-size: 36px;
+    padding: 100px;
+    font-style: italic;
+}
+
+.quote > span {
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.pick-up {
+    background-color: var(--button-text);
+    color: var(--header-logo-text);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: relative;
+    left: 20%;
+    border-radius: 5%;
+    margin: 100px;
+}
+
+.pick-up > .CTA {
+    border: 3px solid white;
+    position: absolute;
+    left: 80%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
